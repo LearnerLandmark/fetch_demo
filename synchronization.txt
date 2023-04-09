@@ -1,0 +1,4 @@
+Critical Section
+Mutex
+Semaphore
+Event
