@@ -1,0 +1,1 @@
+refers to the newly created object through a common interface.
