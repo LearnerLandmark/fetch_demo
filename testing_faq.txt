@@ -1,0 +1,22 @@
+1.	What is unit testing?
+It’s a type of white box testing, It’s an automated testing, and also, it’s a regression testing, it tests only one unit of code.
+When we write a piece of code in software, we always need to check, it didn’t break the old code. We can’t do it, manually, if the project is very long, so, we are writing some automated test cases.
+// Test the following function
+int sum (int x, int y)
+{
+	return x + y;
+}
+
+	// Testcase from GTest
+TEST (MyTestSuite, SumTest1)
+{
+	ASSERT_EQ (6, sum (2, 4));
+}
+// sum (2,4) return 6, the test passes.
++Here, TEST macro takes two parameters (TestSuitName, and TestCaseName)
+Characteristics: -
+•	Can execute independently, for example if we have a global/static variable, if one test changes the value, it will not visible to the other test.
+•	Run fast (milliseconds)
+•	Do not reply on external input
+Isolated entity (it will not wait, to give input by the user or network so…on)
+•	Typically short, as lines are concerned.
