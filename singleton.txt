@@ -1,0 +1,4 @@
+Singleton is a creational design pattern, we can create only one instance, and that instance provides a global point of access. This is useful when exactly one object needs to coordinate actions across system.
+
+for example: - 
+One Log file across application, which is used to log the current actions such as success or failure from different modules.
